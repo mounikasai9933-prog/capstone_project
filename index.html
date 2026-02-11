@@ -1,131 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Capstone Project | AUTOSAR Mode Management</title>
+    <title>Capstone Project - Mounika</title>
 
     <style>
         body {
             margin: 0;
-            font-family: 'Segoe UI', sans-serif;
-            background: #f4f6f9;
-        }
-
-        .header {
+            font-family: Arial, Helvetica, sans-serif;
             background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
             color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
-
-        .header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-
-        .header p {
-            margin-top: 10px;
-            font-size: 18px;
-            opacity: 0.9;
         }
 
         .container {
             width: 80%;
-            margin: 40px auto;
+            margin: auto;
+            padding: 40px;
         }
 
-        .section {
+        .card {
             background: white;
+            color: black;
             padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            margin-top: 30px;
         }
 
-        .section h2 {
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #FFD700;
+        }
+
+        h2 {
             color: #1e3c72;
-            margin-bottom: 15px;
-        }
-
-        .section p {
-            line-height: 1.6;
-            color: #444;
         }
 
         .highlight {
+            color: #ff5733;
             font-weight: bold;
-            color: #0f2027;
-        }
-
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 25px;
-            background: #1e3c72;
-            color: white;
-            text-decoration: none;
-            border-radius: 30px;
-            transition: 0.3s;
-        }
-
-        .button:hover {
-            background: #ff4b2b;
         }
 
         .footer {
             text-align: center;
-            padding: 20px;
-            background: #0f2027;
-            color: white;
+            margin-top: 40px;
             font-size: 14px;
+            color: #ddd;
         }
     </style>
 </head>
 
 <body>
 
-<div class="header">
-    <h1>AUTOSAR Mode Management and State Transition Testing</h1>
-    <p>Capstone Project | Developed by Yerramsetty Lakshmi Naga Sai Mounika</p>
-</div>
-
 <div class="container">
 
-    <div class="section">
-        <h2>Project Overview</h2>
-        <p>
-            This capstone project focuses on understanding the <span class="highlight">AUTOSAR Mode Manager</span> 
-            and validating correct ECU mode transitions. The project ensures reliable switching between 
-            ECU states such as OFF, ON, and transitional modes, preventing incorrect state handling 
-            that may cause vehicle malfunctions.
-        </p>
-    </div>
+    <h1>CAPSTONE PROJECT</h1>
 
-    <div class="section">
-        <h2>Objective</h2>
-        <p>
-            To design structured test cases, identify potential failure scenarios, 
-            and automate state transition testing for a vehicle ECU. The goal is to 
-            ensure accurate mode-based behavior and safe automotive system performance.
-        </p>
-    </div>
+    <div class="card">
 
-    <div class="section">
-        <h2>Project Summary</h2>
+        <h2>Project Title:</h2>
+        <p class="highlight">Automotive Mode Management and State Transition Testing</p>
+
+        <h2>Developed By:</h2>
+        <p><strong>55909-Yerramsetty Lakshmi Naga Sai Mounika</strong></p>
+
+
+        <h2>Project Summary:</h2>
         <p>
-            The system simulates ECU state transitions and validates proper responses 
-            under different operational conditions. Automated test scripts verify 
-            correct mode switching, handle unexpected transitions, and generate 
-            validation reports. This project provides practical exposure to 
-            ECU state machines and mode-based testing used in automotive environments.
+            This project focuses on validating Automotive ECU Mode Management and 
+            State Transitions using automated testing techniques. The system ensures 
+            proper switching between ECU modes such as OFF, INIT, RUN, and SLEEP. 
+            Automated test scripts were developed using Appium and Java to verify 
+            correct state transitions, diagnostic session handling, and error 
+            management to prevent system malfunction in automotive environments.
         </p>
 
-        <a href="#" class="button">View Project QR</a>
+        <h2>Objective:</h2>
+        <p>
+            To ensure reliable ECU behavior by validating correct mode transitions 
+            and detecting invalid state changes using automation testing.
+        </p>
+
     </div>
 
-</div>
+    <div class="footer">
+        © 2026 | Capstone Project | Automotive Testing Domain
+    </div>
 
-<div class="footer">
-    © 2026 Capstone Project | Automotive Embedded Systems Domain
 </div>
 
 </body>
