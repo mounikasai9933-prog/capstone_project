@@ -6,93 +6,100 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-            color: white;
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 40px;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #1f4037, #99f2c8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
         .card {
             background: white;
-            color: black;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-            margin-top: 30px;
+            width: 70%;
+            max-width: 800px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            text-align: center;
         }
 
         h1 {
-            text-align: center;
-            font-size: 36px;
-            color: #FFD700;
+            color: #0f2027;
+            margin-bottom: 10px;
         }
 
         h2 {
-            color: #1e3c72;
+            color: #2c5364;
+            margin-top: 5px;
+            font-weight: normal;
         }
 
-        .highlight {
-            color: #ff5733;
+        .project-title {
+            font-size: 24px;
             font-weight: bold;
+            color: #1e3c72;
+            margin-top: 20px;
+        }
+
+        .summary {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: #1e3c72;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ff4b2b;
+            transform: scale(1.05);
         }
 
         .footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 14px;
-            color: #ddd;
+            margin-top: 25px;
+            font-size: 13px;
+            color: gray;
         }
     </style>
+
 </head>
 
 <body>
 
-<div class="container">
+<div class="card">
 
     <h1>CAPSTONE PROJECT</h1>
+    <h2>Yerramsetty Lakshmi Naga Sai Mounika</h2>
 
-    <div class="card">
-
-        <h2>Project Title:</h2>
-        <p class="highlight">Automotive Mode Management and State Transition Testing</p>
-
-        <h2>Developed By:</h2>
-        <p><strong>Yerramsetty Lakshmi Naga Sai Mounika</strong></p>
-
-        <h2>Technologies Used:</h2>
-        <ul>
-            <li>Appium</li>
-            <li>Java</li>
-            <li>TestNG</li>
-            <li>Android Studio</li>
-            <li>AUTOSAR Concepts</li>
-        </ul>
-
-        <h2>Project Summary:</h2>
-        <p>
-            This project focuses on validating Automotive ECU Mode Management and 
-            State Transitions using automated testing techniques. The system ensures 
-            proper switching between ECU modes such as OFF, INIT, RUN, and SLEEP. 
-            Automated test scripts were developed using Appium and Java to verify 
-            correct state transitions, diagnostic session handling, and error 
-            management to prevent system malfunction in automotive environments.
-        </p>
-
-        <h2>Objective:</h2>
-        <p>
-            To ensure reliable ECU behavior by validating correct mode transitions 
-            and detecting invalid state changes using automation testing.
-        </p>
-
+    <div class="project-title">
+        AUTOSAR Mode Management and State Transition Testing
     </div>
 
+    <div class="summary">
+        This project focuses on understanding AUTOSAR Mode Management and 
+        validating correct ECU mode transitions such as OFF, ON, and 
+        transitional states. The objective is to design structured test cases, 
+        identify failure scenarios, and automate state transition testing to 
+        ensure reliable and safe vehicle ECU behavior. The project provides 
+        practical exposure to ECU state machines and mode-based validation 
+        techniques used in automotive systems.
+    </div>
+
+    <a href="#" class="btn">View QR Code</a>
+
     <div class="footer">
-        © 2026 | Capstone Project | Automotive Testing Domain
+        Automotive Testing Domain | ECU State Machine Validation
     </div>
 
 </div>
